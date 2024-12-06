@@ -1,0 +1,17 @@
+.container-banner {
+    position: relative;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+.title-banner {
+    color: #fffbed;
+    font-family: "Germania One", system-ui;
+    font-size: 16vw;
+    position: absolute; 
+    top: 6%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);    
+}
