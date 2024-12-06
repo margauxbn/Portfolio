@@ -3,35 +3,52 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; 
-    height: 80px; 
+    padding: 0 20px;
+    height: 80px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fffbed; 
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out; 
+ }
+  
+.navbar.hidden {
+    transform: translateY(-100%);
 }
-
-
+  
+.navbar.visible {
+    transform: translateY(0); 
+}
+  
 .logo-navbar {
-    display: flex; 
-    align-items: center; 
-    height: 100%; 
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
-
+  
 .img-logo-navbar {
     height: 50px;
     cursor: pointer;
 }
-
-
+  
 .list-navbar {
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
     color: #ae0703;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
     list-style: none;
 }
-
+  
 .element-list-navbar {
-    margin: 0 20px; 
+    margin: 0 20px;
     cursor: pointer;
+}
+
+.element-projets-list-navbar {
+    margin-right: 50px;
 }
