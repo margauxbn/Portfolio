@@ -4,3 +4,7 @@ body {
     box-sizing: border-box;
     background-color: #fffbed;
 }
+
+html {
+    scroll-behavior: smooth;
+}
