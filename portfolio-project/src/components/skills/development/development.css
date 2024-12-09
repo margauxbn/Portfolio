@@ -1,0 +1,45 @@
+.title-development {
+    font-family: Helvetica, sans-serif;
+    color: #ae0703;
+    font-size: 20px;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+.development-skills {
+    display: flex;
+    flex-direction: row;
+    background-color: #fdf6df;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap; 
+}
+
+.development-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.logo-development-skill {
+    height: 45px;
+    width: 45px;
+    padding-top: 20px;
+}
+
+.title-development-skill {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 890px) {
+    .development-skills {
+        flex-direction: row;    
+    }
+
+    .development-element {
+        width: 30%; 
+    }
+}
