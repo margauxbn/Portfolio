@@ -5,7 +5,7 @@ import './skills.css';
 function Skills() {
   return (
     <>
-        <h3>Mes compétences</h3>
+        <h3 className='title-skills'>Mes compétences</h3>
         <Development />
         <Collaboration />
     </>
