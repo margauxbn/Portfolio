@@ -1,0 +1,29 @@
+.title-aboutme-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-title-presentation {
+    display: flex; 
+    justify-content: center; 
+}
+
+.title-presentation {
+    font-family: "Teko";
+    color: #ae0703;
+    font-size: 6rem;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 1200px) {
+    .container-title-presentation {
+        margin: 0;
+    }
+    .title-presentation {
+        font-size: 4rem;
+        margin: 15px;
+    }
+}
+  
+

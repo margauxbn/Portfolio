@@ -1,0 +1,27 @@
+.container-aboutme {
+    background-color: #ae0703;
+    margin: 10px 100px;
+}
+
+.title-aboutme, .paragraph-aboutme {
+    color: #fffbed;
+    font-family: Helvetica, sans-serif;
+    padding: 0 20px;
+}
+
+.title-aboutme {
+    font-size: 24px;
+}
+
+.paragraph-aboutme {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+    .container-aboutme {
+        margin: 0 10px;
+    }
+}
+  
