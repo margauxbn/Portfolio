@@ -1,0 +1,12 @@
+.img-presentation {
+    display: flex;
+    width: 40rem;
+    position: relative;
+    top: -5px;
+}
+
+@media (max-width: 1200px) {
+    .img-presentation {
+        display: none;
+    }
+}
