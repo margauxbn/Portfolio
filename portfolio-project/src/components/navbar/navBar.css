@@ -37,7 +37,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #ae0703;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
@@ -47,6 +46,12 @@
 .element-list-navbar {
     margin: 0 20px;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #ae0703;
+
 }
 
 .element-projets-list-navbar {

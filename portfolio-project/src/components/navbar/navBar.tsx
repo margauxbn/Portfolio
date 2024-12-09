@@ -15,6 +15,13 @@ function NavBar() {
     setLastScrollY(window.scrollY); 
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll); 
     return () => {
@@ -24,13 +31,17 @@ function NavBar() {
 
   return (
     <div className={`navbar ${showNavbar ? 'visible' : 'hidden'}`}>
-      <div className='logo-navbar'>
+      <div className='logo-navbar' onClick={scrollToTop}>
         <img src={logoNavBar} alt='Logo où il est écrit MB' className='img-logo-navbar'/>
       </div>
       <div>
         <ul className='list-navbar'>
-          <li className='element-list-navbar'>présentation</li>
-          <li className='element-list-navbar element-projets-list-navbar'>projets</li>
+          <li className='element-list-navbar'>
+            <a href="#presentation">présentation</a>
+          </li>
+          <li className='element-list-navbar element-projets-list-navbar'>
+            <a href="#projets">projets</a>
+          </li>
         </ul>
       </div>            
     </div>
