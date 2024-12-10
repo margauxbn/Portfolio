@@ -15,7 +15,7 @@ const ProjectContainer: React.FC = () => {
         "Requêtes API via des appels HTTP",
         "Site dynamique avec JavaScript",
       ],
-      url: ""
+      url: "https://p6-ocr-sophie-bluel.vercel.app/"
     },
     { 
       text: 'KASA',
