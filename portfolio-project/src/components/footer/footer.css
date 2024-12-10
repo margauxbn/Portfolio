@@ -1,0 +1,22 @@
+.footer-container {
+    background-color: #ae0703;
+    margin: 50px 0 0 0;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.container-logo-footer {
+    margin-left: 30px; 
+}
+
+.container-github-footer {
+    margin-right: 30px; 
+}
+
+.logo-footer, .logo-github-footer {
+    cursor: pointer;
+    width: 75px; 
+    height: auto;
+}
