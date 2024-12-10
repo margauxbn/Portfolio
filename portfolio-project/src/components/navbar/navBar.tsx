@@ -40,7 +40,7 @@ function NavBar() {
             <a href="#presentation">présentation</a>
           </li>
           <li className='element-list-navbar element-projets-list-navbar'>
-            <a href="#projets">projets</a>
+            <a href="#projects">projets</a>
           </li>
         </ul>
       </div>            
