@@ -14,7 +14,8 @@ const ProjectContainer: React.FC = () => {
         "Site partiellement créé avec HTML & CSS",
         "Requêtes API via des appels HTTP",
         "Site dynamique avec JavaScript",
-      ]
+      ],
+      url: ""
     },
     { 
       text: 'KASA',
@@ -24,7 +25,8 @@ const ProjectContainer: React.FC = () => {
         "Site créé avec React & SASS",
         "Utilisation de TypeScript",
         "Utilisation des props avec une database JSON",
-      ]
+      ],
+      url: "https://p7-ocr-kasa.vercel.app/"
     },
     { 
       text: 'NINA CARDUCCI',
@@ -38,7 +40,8 @@ const ProjectContainer: React.FC = () => {
         "Ajout de balises sémantiques ordonnées",
         "Référencement local avec schema.org",
         "Référencement grâce aux réseaux sociaux avec OpenGraph & TwitterCard",
-      ]
+      ],
+      url: "https://p8-ocr-nina-carducci.vercel.app/",
     },
   ];
 
@@ -79,6 +82,7 @@ const ProjectContainer: React.FC = () => {
                     <li key={idx}>{info}</li>
                   ))}
                 </ul>
+                <a href={project.url} className='project-description-btn' target='_blank' rel="noopener noreferrer">En savoir plus</a>
               </div>
             )}
           </div>
