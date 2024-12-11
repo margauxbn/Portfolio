@@ -1,5 +1,5 @@
 import './imgPresentation.css'
-import coverPresentation from '../../../assets/images/traffic-light-6010.webp'
+import coverPresentation from '../../../assets/images/fish-red-0684.jpg'
 
 function ImgPresentation() { 
   return (

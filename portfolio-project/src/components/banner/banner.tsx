@@ -1,5 +1,5 @@
 import './banner.css';
-import imgBanner from "../../assets/images/red-drop-5145.webp";
+import imgBanner from "../../assets/images/fish-violet-6205.jpg";
 
 function Banner() {
 
