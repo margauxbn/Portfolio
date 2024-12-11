@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navBar.css';
-import logoNavBar from '../../assets/logo/logo-navbar.webp';
+import logoNavBar from '../../assets/logo/logo-mb.png';
 
 function NavBar() {
   const [showNavbar, setShowNavbar] = useState(true); 
@@ -36,11 +36,11 @@ function NavBar() {
       </div>
       <div>
         <ul className='list-navbar'>
-          <li className='element-list-navbar'>
-            <a href="#presentation">présentation</a>
+          <li>
+            <a className="element-list-navbar" href="#presentation">présentation</a>
           </li>
-          <li className='element-list-navbar element-projets-list-navbar'>
-            <a href="#projects">projets</a>
+          <li className='element-projets-list-navbar'>
+            <a className="element-list-navbar" href="#projects">projets</a>
           </li>
         </ul>
       </div>            

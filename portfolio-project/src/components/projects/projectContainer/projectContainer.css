@@ -16,9 +16,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fffbed;
-  border: 2px #ae0703 solid;
-  box-shadow: -10px -10px 0px #ae0703;
+  background-color: black;
+  border: 2px #8c223a solid;
+  box-shadow: -10px -10px 0px #8c223a;
   height: 40rem;
   overflow-y: auto;
   width: 90%;
@@ -26,13 +26,13 @@
 }
 
 .project-array.hovered {
-  background-color: #fdf6df;
-  box-shadow: -15px -15px 0px #740704;
-  border: 2px #740704 solid;
+  box-shadow: -15px -15px 0px #591625;
+  border: 2px solid #591625;
 }
 
 .project-array span {
   font-size: 26px;
+  color: #fffbed;
   font-weight: bold;
   margin-bottom: 3rem;
   margin-top: 40%;
@@ -41,12 +41,12 @@
 .project-array i {
   margin-top: 20px;
   font-size: 100px;
-  color: black;
+  color: #fffbed;
 }
 
 .project-array.hovered span,
 .project-array.hovered i {
-  color: #ae0703;  
+  color: #8c223a;  
 }
 
 .project-description-container {
@@ -57,6 +57,7 @@
 
 .project-description {
   font-size: 18px;
+  color: #fffbed;
   margin-top: 6rem;
   margin-left: 10px;
   margin-right: 10px;
@@ -69,7 +70,7 @@
   width: 75%;
   height: 2px;
   border: 0;
-  background-color: #ae0703;
+  background-color: #8c223a;
   margin: 30px auto;
   display: flex;
   justify-content: center;
@@ -81,6 +82,7 @@
   line-height: 1.5;
   max-width: 80%;
   margin: 20px auto;
+  color: #fffbed;
 }
 
 .project-array li {
@@ -90,9 +92,9 @@
 .project-description-btn {
   margin-top: 50px;
   padding: 10px 50px;
-  background-color: #ae0703;
+  background-color: #8c223a;
   color: #fffbed;
-  border: 2px solid #ae0703;
+  border: 2px solid #8c223a;
   border-radius: 22px;
   font-size: 16px;
   font-weight: bold;
@@ -101,9 +103,8 @@
 }
 
 .project-description-btn:hover {
-  background-color: #740704;
-  border: 2px solid #740704;
-  color: #fffbed;
+  background-color: #591625;
+  border: 2px solid #591625;
 }
 
 .project-button {
@@ -111,8 +112,9 @@
   margin-bottom: 50px;
   padding: 10px 50px;
   background-color: #fffbed;
-  color: #ae0703;
-  border: 2px solid #ae0703;
+  color: #8c223a;
+  border: 2px solid #8c223a;
+  box-shadow: 0 0 10px 3px #8c223a;
   border-radius: 22px;
   font-size: 16px;
   font-weight: bold;
@@ -121,7 +123,7 @@
 }
 
 .project-button:hover {
-  background-color: #ae0703;
+  background-color: #8c223a;
   color: #fffbed;
 }
 

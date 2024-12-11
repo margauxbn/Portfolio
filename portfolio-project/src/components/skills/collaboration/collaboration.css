@@ -1,6 +1,6 @@
 .title-collaboration {
     font-family: Helvetica, sans-serif;
-    color: #ae0703;
+    color: #fffbed;
     font-size: 20px;
     padding-left: 30px;
     margin: 10px;
@@ -9,7 +9,10 @@
 .collaboration-skills {
     display: flex;
     flex-direction: row;
-    background-color: #fdf6df;
+    margin: 0 10px;
+    background-color: black;
+    border: 1px solid #fffbed;
+    box-shadow: 0 0 10px 0 #fffbed;
     justify-content: center;
     margin-bottom: 30px;
     flex-wrap: wrap; 
@@ -20,6 +23,11 @@
     flex-direction: column;
     align-items: center;
     width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.collaboration-element:hover {
+    transform: scale(1.2);
 }
 
 .logo-collaboration-skill {
@@ -31,6 +39,7 @@
 .title-collaboration-skill {
     font-size: 14px;
     font-family: Helvetica, sans-serif;
+    color: #fffbed;
     margin-bottom: 20px;
 }
 
