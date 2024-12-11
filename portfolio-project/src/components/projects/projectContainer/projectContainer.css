@@ -36,12 +36,14 @@
   font-weight: bold;
   margin-bottom: 3rem;
   margin-top: 40%;
+  transition: color 0.3s;
 }  
 
 .project-array i {
   margin-top: 20px;
   font-size: 100px;
   color: #fffbed;
+  transition: color 0.3s;
 }
 
 .project-array.hovered span,

@@ -28,6 +28,7 @@
 
 .collaboration-element:hover {
     transform: scale(1.2);
+    font-weight: bold;
 }
 
 .logo-collaboration-skill {
