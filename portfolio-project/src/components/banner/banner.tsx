@@ -6,7 +6,7 @@ function Banner() {
   return (
     <>
       <div className='container-banner'>
-        <img src={imgBanner} className='img-banner' alt="Goutte qui tombe dans l'eau"/>
+        <img src={imgBanner} className='img-banner' alt="Poisson combattant pourpre"/>
         <h1 className='title-banner'>PORTFOLIO</h1>          
       </div>
     </>

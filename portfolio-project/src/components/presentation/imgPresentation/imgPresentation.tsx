@@ -4,7 +4,7 @@ import coverPresentation from '../../../assets/images/fish-red-0684.jpg'
 function ImgPresentation() { 
   return (
     <>
-      <img src={coverPresentation} alt="Feu de circulation rouge" className="img-presentation" />
+      <img src={coverPresentation} alt="Poisson combattant rouge" className="img-presentation" />
     </>
   );
 }

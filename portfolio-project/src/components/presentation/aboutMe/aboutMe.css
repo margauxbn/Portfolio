@@ -1,6 +1,13 @@
 .container-aboutme {
-    background-color: #ae0703;
-    margin: 10px 100px;
+    margin: 0 100px;
+    padding-bottom: 10px;
+    border: 1px solid #8c223a;
+    box-shadow: 0 0 10px 0 #8c223a;
+    transition: box-shadow 0.3s;
+}
+
+.container-aboutme:hover {
+    box-shadow: 0 0 30px 0 #8c223a;
 }
 
 .title-aboutme, .paragraph-aboutme {
@@ -21,7 +28,7 @@
 
 @media (max-width: 1200px) {
     .container-aboutme {
-        margin: 0 10px;
+        margin: 0 60px;
     }
 }
   

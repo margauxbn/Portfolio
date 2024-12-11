@@ -1,6 +1,6 @@
 import "./footer.css"
-import logoFooter from "../../assets/logo/logo-footer.webp"
-import logoGitHub from "../../assets/logo/github-logo-1506.png"
+import logoFooter from "../../assets/logo/logo-mb.png"
+import logoGitHub from "../../assets/logo/github-0684.png"
 
 const scrollToTop = () => {
     window.scrollTo({

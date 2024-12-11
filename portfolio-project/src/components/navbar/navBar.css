@@ -9,10 +9,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fffbed; 
+    background-color: black; 
     z-index: 1000;
     transition: transform 0.3s ease-in-out; 
- }
+    border-bottom: 1px solid #fffbed;
+    box-shadow: inset 0px -10px 20px -10px #fffbed; 
+}
   
 .navbar.hidden {
     transform: translateY(-100%);
@@ -42,15 +44,21 @@
     font-weight: bold;
     list-style: none;
 }
-  
-.element-list-navbar {
-    margin: 0 20px;
-    cursor: pointer;
-}
 
 a {
     text-decoration: none;
-    color: #ae0703;
+    color: #fffbed;
+}  
+
+.element-list-navbar {
+    margin: 0 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s; 
+}
+
+.element-list-navbar:hover {
+    transform: scale(1.2); 
 }
 
 .element-projets-list-navbar {

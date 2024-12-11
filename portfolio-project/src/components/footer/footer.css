@@ -1,10 +1,11 @@
 .footer-container {
-    background-color: #ae0703;
     margin: 50px 0 0 0;
     height: 9rem;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    border-top: 1px solid #fffbed;
+    box-shadow: inset 0 10px 20px -10px #fffbed;
 }
 
 .container-logo-footer {

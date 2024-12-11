@@ -1,5 +1,5 @@
 import './collaboration.css';
-import logoGitHub from "../../../assets/skills-logo/github-7493.png"
+import logoGitHub from "../../../assets/skills-logo/github-1506.png"
 import logoFigma from "../../../assets/skills-logo/figma-0189.png"
 import logoTrello from "../../../assets/skills-logo/trello-4874.png"
 
