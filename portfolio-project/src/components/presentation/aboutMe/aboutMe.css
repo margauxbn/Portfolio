@@ -1,14 +1,61 @@
 .container-aboutme {
     margin: 0 100px;
     padding-bottom: 10px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 0 #8c223a;
-    transition: box-shadow 0.3s, transform 1s;
+    overflow: hidden;
+    position: relative;
 }
 
-.container-aboutme:hover {
-    box-shadow: 0px 0px 10px 0 #fffbed, 0px 0px 30px 0 #8c223a;
-    transform: scale(1.05);
+.container-aboutme:hover .line {
+    opacity: 1; 
+}
+
+.line {
+    position: absolute;
+    opacity: 0;
+}
+
+.line-left {
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 0;  
+    transition: height 1.5s;
+    background: linear-gradient(to top, #8c223a, #fffbed);
+}
+
+.line-bottom {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 1.5s;
+    background: linear-gradient(to right, #8c223a, #fffbed);
+}
+
+.container-aboutme:hover .line-left {
+    height: 100%; 
+}
+
+.container-aboutme:hover .line-bottom {
+    width: 100%; 
+}
+
+@keyframes animate-left {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%; 
+    }
+}
+
+@keyframes animate-bottom {
+    0% {
+        width: 0; 
+    }
+    100% {
+        width: 100%; 
+    }
 }
 
 .title-aboutme, .paragraph-aboutme {
@@ -32,4 +79,3 @@
         margin: 0 60px;
     }
 }
-  
