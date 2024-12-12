@@ -8,11 +8,13 @@
 }
 
 .title-banner {
+    width: 100vw;
     color: #fffbed;
     font-family: "Germania One", system-ui;
-    font-size: 16vw;
+    font-size: 12vw;
     position: absolute; 
-    top: 0; 
+    top: 10px; 
     left: 50%; 
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
+    text-align: center; 
 }
