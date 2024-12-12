@@ -1,0 +1,33 @@
+.container-education {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    background-color: black;
+    border: 1px solid #fffbed;
+    box-shadow: 0 0 10px 0 #fffbed;
+    margin-bottom: 30px;
+    color: #fffbed;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    flex-wrap: wrap; 
+    overflow: hidden; 
+}
+
+.education-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    gap: 0 20px; 
+}
+
+.education-title, .education-school, .education-date {
+    flex: 1; 
+    min-width: 100px;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}

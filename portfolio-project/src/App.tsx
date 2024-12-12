@@ -5,6 +5,7 @@ import Presentation from "./components/presentation/presentation"
 import Skills from './components/skills/skills'
 import Projects from './components/projects/projects'
 import Footer from './components/footer/footer'
+import Background from './components/background/background'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Presentation />
       <Skills />
+      <Background />
       <Projects />
       <Footer />
     </>

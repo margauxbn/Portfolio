@@ -7,7 +7,7 @@ function Banner() {
     <>
       <div className='container-banner'>
         <img src={imgBanner} className='img-banner' alt="Poisson combattant pourpre"/>
-        <h1 className='title-banner'>PORTFOLIO</h1>          
+        <h1 className='title-banner'>MARGAUX BURBAN</h1>          
       </div>
     </>
   )
