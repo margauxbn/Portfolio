@@ -7,15 +7,15 @@ const ProjectContainer: React.FC = () => {
 
   const projects = [
     { 
-      text: 'SOPHIE BLUEL',
-      icon: 'fa-solid fa-house',
-      description: 'Un site dédié à une architecte, conçu pour présenter et organiser par catégorie les photographies de ses réalisations professionnelles.',
+      text: 'OH MY FOOD',
+      icon: 'fa-solid fa-utensils',
+      description: 'Un site qui permet de répertorier les menus de restaurants gastronomiques et où les clients peuvent y composer le repas de leur choix avant leur arrivée.',
       additionalInfo: [
-        "Site partiellement créé avec HTML & CSS",
-        "Requêtes API via des appels HTTP",
-        "Site dynamique avec JavaScript",
+        "Site créé avec HTML & SASS",
+        "Site crée en mobile-first",
+        "Création d'animations CSS",
       ],
-      url: "https://p6-ocr-sophie-bluel.vercel.app/"
+      url: "https://oh-my-food-psi.vercel.app/"
     },
     { 
       text: 'KASA',
@@ -26,7 +26,7 @@ const ProjectContainer: React.FC = () => {
         "Utilisation de TypeScript",
         "Utilisation des props avec une database JSON",
       ],
-      url: "https://p7-ocr-kasa.vercel.app/"
+      url: " https://kasa-portfolio.vercel.app/"
     },
     { 
       text: 'NINA CARDUCCI',
@@ -41,7 +41,7 @@ const ProjectContainer: React.FC = () => {
         "Référencement local avec schema.org",
         "Référencement grâce aux réseaux sociaux avec OpenGraph & TwitterCard",
       ],
-      url: "https://p8-ocr-nina-carducci.vercel.app/",
+      url: "https://nina-carducci-orpin.vercel.app/",
     },
   ];
 
